@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Gravar ISO
+Comment=
+Exec=./balenaEtcher-1.5.79-x64.AppImage --no-sandbox
+Icon=/home/korozawa/Lançadores/Icones dos Lançadores/usb.png
+Path=/home/korozawa/Lançadores
+Terminal=false
+StartupNotify=true
