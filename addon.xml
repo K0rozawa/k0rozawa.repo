@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 	id="K0rozawa.repo" name="[B][COLOR blue]  Korozawa  [COLOR white]Repositorio Korozawa Oficial!![/B][/COLOR]"
+		version="1.53"
+		provider-name="[B][COLOR gold]Time DedSec[/B][/COLOR]">
+
+	<requires>
+            <import addon="xbmc.python" version="2.1.0"/>
+		    <import addon="script.module.addon.common" optional="true" />
+		    <import addon="script.module.t0mm0.common" optional="true" />
+		    <import addon="script.module.urlresolver" optional="true" />
+    </requires>
+	
+	<extension point="xbmc.addon.repository" name=".Vikings Repositorio">
+		<info compressed="true">/addons.xml</info>
+			<checksum>/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/vikingsbuild/vikings.repo/raw/master</datadir>
+	</extension>
+		
+	<extension point="xbmc.addon.metadata">
+	<news>
+	[COLOR blue]LOG DE CORREÇÔES[/COLOR]
+	[COLOR blue]*[/COLOR] V 1.0
+	[COLOR white]*[/COLOR]   V 1.0
+	</news>
+		
+	<summary>Repositorio K0rozawa levando os melhores addons pra dentro de sua casa!!!</summary>
+		
+	<description>	[B][COLOR red]Repositório oficial K0rozawa - Proibido reprodução total ou parcial sem prévia autorização[/COLOR][/B]
+					[B][COLOR white]Addons deste repositório é de uso gratuito!![/COLOR][/B]
+					[B][COLOR firebrick]Proibido a venda dos add-ons contidos neste repositório[/COLOR][/B]
+	</description>
+		
+<disclaimer>[B][COLOR orange]Repositório K0rozawa é apenas um AGREGADOR de ADDONS e, assim como o Google.com, apenas agrega e organiza ADDONS DE TERCEIROS. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
